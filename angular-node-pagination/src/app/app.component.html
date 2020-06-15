@@ -1,0 +1,35 @@
+<div *ngFor="let message of messageList">
+
+</div>
+
+<button (click)="sendMessage()">Create a Connection</button>
+
+<table>
+  <thead>
+    <tr>
+      <th>Time stamp</th>
+      <th>duration display</th>
+      <th>ID</th>
+    </tr>
+  </thead>
+   <tbody>
+    <tr *ngFor="let item of collection.data | paginate: config">
+      <th scope="row">{{item.Timestamp}}</th>
+      <td>{{item.ID}}</td>
+      <td>{{item.duration}}</td>
+    </tr>
+  </tbody>
+</table>
+
+<pagination-controls 
+  (pageChange)="pageChanged($event)" (pageBoundsCorrection)="pageChanged($event)"
+  maxSize="9"
+  directionLinks="true"
+  autoHide="true"
+  responsive="true"
+  previousLabel="Previous"
+  nextLabel="Next"
+  screenReaderPaginationLabel="Pagination"
+  screenReaderPageLabel="page"
+  screenReaderCurrentLabel="You're on page">
+></pagination-controls>
