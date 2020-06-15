@@ -1,4 +1,4 @@
-# Socket.IO agnular node connection
+# Socket.IO angular node connection
 > 
 
 This project establishes a socket.io connection between a nodeJs server and angular client. Upon, clicking a button a connection is established and server sends the data.
