@@ -12,7 +12,7 @@ Make sure you have node installed. This can be checked using `node -v`
 
 Also, please check if you have npm installed using `npm -v`
 
-To run client : `ng server` should be run and you should see a message on console saying ```Server is listening on localhost:4200, open your browser on http://localhost:4200/ **```
+To run client : `ng server` should be run inside angular-node-pagination and you should see a message on console saying ```Server is listening on localhost:4200, open your browser on http://localhost:4200/ **```
 
 To run server: `node index.js` inside ```angular-node-pagination/src```
 
