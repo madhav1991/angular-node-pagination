@@ -12,6 +12,6 @@
     "@types/socket.io": "^2.1.8",
     "express": "^4.17.1",
     "ngx-pagination": "^5.0.0",
-    "socket.io": "^2.3.0"
+    "socket.io": "^2.5.0"
   }
 }
